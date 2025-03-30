@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>איתי בטיחות ומיגון אש</title>
+  <meta name="description" content="איתי בטיחות ומיגון אש - מומחיות במיגון אש פסיבי בהתאם לתקנים המחמירים ביותר.">
+  <!-- הטמעת הפונט "Assistant" מ-Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap" rel="stylesheet">
+  <style>
+    /* איפוס בסיסי */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Assistant', sans-serif;
+      color: #fff;
+      background: #000; /* fallback למקרה שהווידאו לא נטען */
+      position: relative;
+      line-height: 1.6;
+    }
+    /* וידאו רקע */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* מאחורי התוכן */
+    }
+    /* מיכל התוכן (ללא רקע אטום) */
+    .container {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img.logo {
+      max-width: 300px; /* הגדלת גודל הלוגו */
+      height: auto;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    header p.tagline {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .cta-top {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .cta-top a {
+      display: inline-block;
+      background: #005aab;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.2em;
+      border-radius: 5px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    main section {
+      margin-bottom: 30px;
+    }
+    main section h2 {
+      font-size: 1.8em;
+      margin-bottom: 15px;
+      border-bottom: 2px solid red; /* שינוי צבע הקו לאדום */
+      display: inline-block;
+      padding-bottom: 5px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    main section p {
+      font-size: 1.3em; /* הגדלת גודל המלל עצמו */
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    main section li {
+      font-size: 1.3em; /* הגדלת גודל המלל ברשימות */
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      margin: 10px 0;
+      padding-right: 30px;
+      position: relative;
+      padding-left: 0;
+    }
+    /* הסרת סימני "✔️" מהרשימות */
+    .features {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      padding: 10px 0;
+      font-size: 0.9em;
+      color: #ccc;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .cta-top a {
+        font-size: 1em;
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- וידאו רקע -->
+  <video class="video-background" autoplay muted loop playsinline>
+    <source src="1122.MP4.mp4" type="video/mp4">
+    הדפדפן שלך אינו תומך בתג הווידאו.
+  </video>
+
+  <div class="container">
+    <header>
+      <!-- לוגו החברה (ודא שהקובץ itay.jpg.png.png קיים באותה תיקייה) -->
+      <img src="itay.jpg.png.png" alt="לוגו איתי בטיחות ומיגון אש" class="logo">
+      <!-- הסרת הסמל (מגן) משם החברה -->
+      <h1>איתי בטיחות ומיגון אש</h1>
+      <p class="tagline">מומחיות במיגון אש פסיבי – בהתאם לתקנים המחמירים ביותר</p>
+      <div class="cta-top">
+        <a href="tel:123456789">צור קשר עכשיו</a>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>הצעת הערך שלנו</h2>
+        <p>אנו מגנים על הנכסים והעסקים שלכם מפני סיכוני אש, חוסכים בזמן ובעלויות תוך עמידה בתקנים המחמירים ביותר.</p>
+      </section>
+
+      <section>
+        <h2>מה אנחנו מציעים?</h2>
+        <p>חברת איתי בטיחות ומיגון אש מספקת פתרונות מקיפים ויישומיים בתחום מיגון האש הפסיבי, כחלק בלתי נפרד ממערך הבטיחות באתרי בנייה, מבני מגורים, תעשייה, מסחר וציבור.</p>
+        <p>אנו מתמחים בהתאמת פתרונות בהתאם לדרישות התקן הישראלי 931 ולתקנים בין־לאומיים, תוך שיתוף פעולה צמוד עם קבלנים, מהנדסים, יזמים, מנהלי עבודה ומפקחים.</p>
+        <ul class="features">
+          <li>אטימות למעבר אש, עשן וחום</li>
+          <li>טיפול מקצועי במעברי אש: תעלות מיזוג, כבלים, צנרת ועוד</li>
+          <li>שימוש בחומרים מאושרים בלבד ובעלי תו תקן</li>
+          <li>ליווי הנדסי, ביצוע מדויק ותיעוד מלא לאישור רשות הכבאות</li>
+          <li>עמידה בלוחות זמנים, רמת שירות גבוהה והתאמה לשטח</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>לקוחות מרוצים</h2>
+        <p>רוצים לראות מה אומרים עלינו? <a href="#">המלצות</a> מלקוחות שכבר נהנו מהשירות שלנו.</p>
+      </section>
+
+      <section>
+        <h2>צור קשר</h2>
+        <p>השירות שלנו מותאם לתקציב, לתכנון ולהנדסה – בלי פשרות על בטיחות. נשמח לקחת חלק בפרויקט הבא שלכם.</p>
+        <div class="cta-top">
+          <a href="tel:123456789">צור קשר עכשיו</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2025 איתי בטיחות ומיגון אש. כל הזכויות שמורות.
+    </footer>
+  </div>
+</body>
+</html>
